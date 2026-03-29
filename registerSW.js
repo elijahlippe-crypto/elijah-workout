@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/elijah-workout/sw.js', { scope: '/elijah-workout/' })})}
